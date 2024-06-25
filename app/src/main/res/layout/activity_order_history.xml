@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#E1DCDC">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_title_lichsu"
+        android:background="@color/privateColor">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/order_history"
+            android:background="@color/privateColor"
+            android:id="@+id/iconLS"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lịch sử mua hàng"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:layout_toRightOf="@id/iconLS"/>
+
+
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:elevation="8dp"
+        android:visibility="gone"
+        android:id="@+id/progressBar_LichSu"/>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/RecycleView_LichSu"
+        android:layout_below="@id/layout_title_lichsu">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

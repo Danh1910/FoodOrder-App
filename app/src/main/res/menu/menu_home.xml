@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/tab_rate"
+        android:icon="@drawable/food"
+        android:title="Food"
+        />
+
+    <item android:id="@+id/tab_acc"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="Tài Khoản"/>
+
+    <item android:id="@+id/tab_my_page"
+        android:icon="@drawable/activity_history"
+        android:title="Lịch sử mua"/>
+
+
+
+
+
+</menu>

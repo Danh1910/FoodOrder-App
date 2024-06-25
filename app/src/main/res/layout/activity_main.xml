@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/privateColor"
+        android:id="@+id/box_title">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_marginTop="75px"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:text="JoLiBeFood"/>
+
+        <ImageButton
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_alignParentRight="true"
+            android:background="@color/privateColor"
+            android:layout_marginTop="75px"
+            android:layout_marginBottom="5px"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/cart"
+            android:id="@+id/btnMain_To_Cart"/>
+
+<!--        <ImageButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:background="@color/privateColor"-->
+<!--            android:paddingTop="30dp"-->
+<!--            android:paddingLeft="15dp"-->
+<!--            android:paddingRight="15dp"-->
+<!--            android:paddingBottom="15dp"-->
+<!--            android:layout_marginEnd="150px"-->
+<!--            android:src="@drawable/bell"-->
+<!--            android:id="@+id/btn_notifi"/>-->
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/box_title"
+        />
+
+
+</RelativeLayout>
+
+
+

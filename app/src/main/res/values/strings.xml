@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">JoLeBeFood</string>
+    <string name="tab_rate">Rate</string>
+    <string name="tab_favorite">Favorite</string>
+    <string name="tab_my_page">My page</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login_phone">Login_Phone</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="default_web_client_id">559740643373-5abct1cpg4v5tiou8vedad1jl5qg1mjq.apps.googleusercontent.com</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+    <string name="channel_name">Thông báo Ứng dụng Jolebefood</string>
+    <string name="channel_description">Nhận tin tức và cập nhật từ Jolebefood.</string>
+
+
+</resources>
