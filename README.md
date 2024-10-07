@@ -14,6 +14,8 @@
 - Managed Google Ads integration to optimize user engagement and app monetization.
 
 ### App UI
+![image](https://github.com/user-attachments/assets/9bf6e8b4-c9b2-452d-928d-c73daedc30e6)
+
 ![image](https://github.com/user-attachments/assets/929dae95-959c-46b0-bb32-a9ed1aa8bbdc)
 
 ![image](https://github.com/user-attachments/assets/afaf95c8-7576-4b9b-85d1-a58558400471)
